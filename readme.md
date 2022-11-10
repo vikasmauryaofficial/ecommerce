@@ -37,10 +37,10 @@ Getting Started
 then 
 install 
 1. pillow 
-pip install pillow
+-pip install pillow
 
 2.psycopg2
-pip install psycopg2
+-pip install psycopg2
 
 3. then Change in the setting.py
 DATABASES = {
@@ -54,16 +54,16 @@ DATABASES = {
     } }
 
 4. then do migrate
-python manage.py migrate
+-python manage.py migrate
 
 5. then makemigrations
-python manage.py makemigrations
+-python manage.py makemigrations
 
 6. then collectstatic
-python manage.py collectstatic
+- python manage.py collectstatic
 
 7. if you want add product then first create super user to ass django admin panel
-python manage.py createsuperuser 
+-python manage.py createsuperuser 
 
 8. then run the project
-python manage.py runserver
+-python manage.py runserver
